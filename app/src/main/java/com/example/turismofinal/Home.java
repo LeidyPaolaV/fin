@@ -61,13 +61,31 @@ public class Home extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         int itemSeleccionado=item.getItemId();
         switch (itemSeleccionado){
+            case(R.id.opcion1):
 
+                break;
+            case(R.id.opcion2):
+
+                break;
+            case(R.id.opcion3):
+
+                break;
+            case(R.id.opcion4):
+
+                Intent intent = new Intent(Home.this,Acerca.class);
+                startActivity(intent);
+
+                break;
 
         }
 
+
+
         return super.onOptionsItemSelected(item);
     }
+    public void cambiarIdioma(String idioma) {
+    }
 
-}
+    }
 
 
