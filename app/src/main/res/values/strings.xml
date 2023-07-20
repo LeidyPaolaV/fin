@@ -14,4 +14,7 @@
     <string name="opcion3">Italiano</string>
     <string name="opcion4">Acerca de</string>
 
+    <string name="botonHoteles" translatable="false">Hoteles</string>
+    <string name="botonRestaurantes" translatable="false">Restaurantes</string>
+    <string name="botonTurismo" translatable="false">Sitios Turisticos</string>
 </resources>

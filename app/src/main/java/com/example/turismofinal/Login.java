@@ -43,7 +43,7 @@ public class Login extends AppCompatActivity {
                 Intent intent=new Intent(Login. this, Home.class);
 
                 //Pasando datos a la nueva Actividad
-               intent.putExtra("Nombre", nombreUsuario);
+               intent.putExtra("nombre", nombreUsuario);
                 intent.putExtra("contraseña", passworUsuario);
 
                 startActivity(intent);
